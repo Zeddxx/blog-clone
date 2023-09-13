@@ -1,8 +1,8 @@
 
 import { useContext } from 'react';
-import { UserContext } from './../context/userContext';
+import { UserContext } from '../context/userContext';
 import axios from 'axios'
-import { URL } from './../url';
+import { URL } from '../url.js';
 import { useNavigate, Link } from 'react-router-dom';
 
 export const Menu = () => {

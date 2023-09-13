@@ -1,11 +1,12 @@
-import Footer from "./../components/Footer";
-import Navbar from "./../components/Navbar";
+/* eslint-disable no-unused-vars */
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
 import { useState, useEffect, useContext } from "react";
 import { ImCross } from "react-icons/im";
 import axios from 'axios'
-import { URL } from './../url';
+import { URL } from '../url';
 import { useParams, useNavigate } from 'react-router-dom';
-import { UserContext } from './../context/userContext';
+import { UserContext } from '../context/userContext';
 
 const EditPost = () => {
 

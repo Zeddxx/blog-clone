@@ -3,7 +3,7 @@ import { BsSearch } from "react-icons/bs";
 import { FaBars } from "react-icons/fa";
 import { useState, useContext } from "react";
 import { Menu } from "./Menu";
-import { UserContext } from './../context/userContext';
+import { UserContext } from '../context/userContext';
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false);

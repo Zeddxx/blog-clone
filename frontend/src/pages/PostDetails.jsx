@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { useNavigate, useParams } from "react-router-dom"
 import Comment from "../components/Comment"
 import Footer from "../components/Footer"
@@ -7,7 +8,7 @@ import {MdDelete} from 'react-icons/md'
 import axios from "axios"
 import { URL,IF } from "../url"
 import { useContext, useEffect, useState } from "react"
-import { UserContext } from "./../context/UserContext"
+import { UserContext } from "../context/UserContext"
 import Loader from "../components/Loader"
 
 
@@ -37,7 +38,7 @@ const PostDetails = () => {
 
     try{
       const res=await axios.delete(URL+"/api/posts/"+postId,{withCredentials:true})
-      console.log(res.data)
+      // console.log(res.data)
       navigate("/")
 
     }

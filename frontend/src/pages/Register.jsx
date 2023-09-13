@@ -1,6 +1,6 @@
 
 import { Link, useNavigate } from 'react-router-dom';
-import Footer from './../components/Footer';
+import Footer from '../components/Footer';
 import { useState } from 'react';
 import axios from 'axios'
 import { URL } from '../url';

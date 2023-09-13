@@ -1,6 +1,6 @@
 
-import Navbar from './../components/Navbar';
-import Footer from './../components/Footer';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 import { useEffect, useContext, useState } from 'react';
 import { useLocation, Link } from 'react-router-dom';
 import { UserContext } from '../context/userContext'

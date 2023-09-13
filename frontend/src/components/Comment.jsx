@@ -1,10 +1,11 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 import axios from "axios"
 import { BiEdit } from "react-icons/bi"
 import { MdDelete } from "react-icons/md"
 import { URL } from "../url"
 import { useContext } from "react"
-import { UserContext } from "../context/UserContext"
+import { UserContext } from "../context/userContext"
 
 const Comment = ({c,post}) => {
 

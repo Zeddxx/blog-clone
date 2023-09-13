@@ -1,9 +1,9 @@
-import Navbar from "./../components/Navbar";
-import Footer from "./../components/Footer";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import { ImCross } from "react-icons/im";
 import { useState, useContext } from "react";
-import { UserContext } from './../context/userContext';
-import { URL } from './../url';
+import { UserContext } from '../context/userContext';
+import { URL } from '../url';
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom';
 

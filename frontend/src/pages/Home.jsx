@@ -1,12 +1,12 @@
-import HomePost from "./../components/HomePost";
-import Navbar from './../components/Navbar';
-import Footer from './../components/Footer';
+import HomePost from "../components/HomePost";
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 import axios from 'axios'
-import { URL } from './../url';
+import { URL } from '../url';
 import { useEffect, useState, useContext } from 'react';
 import { useLocation, Link } from 'react-router-dom'
-import Loader from './../components/Loader';
-import { UserContext } from './../context/userContext';
+import Loader from '../components/Loader';
+import { UserContext } from '../context/userContext';
 
 const Home = () => {
 const { search } = useLocation()

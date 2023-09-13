@@ -1,9 +1,10 @@
+/* eslint-disable no-unused-vars */
 
-import Navbar from './../components/Navbar';
-import Footer from './../components/Footer';
-import ProfilePost from './../components/ProfilePost';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
+import ProfilePost from '../components/ProfilePost';
 import { useState, useContext, useEffect } from 'react';
-import { URL } from './../url';
+import { URL } from '../url';
 import axios from 'axios'
 import { UserContext } from '../context/userContext';
 import { useParams, useNavigate } from 'react-router-dom';
