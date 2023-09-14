@@ -49,8 +49,7 @@ const PostDetails = () => {
   }
 
   useEffect(()=>{
-    fetchPost()
-
+    fetchPost();
   },[postId])
 
   const fetchPostComments=async()=>{
@@ -68,8 +67,7 @@ const PostDetails = () => {
   }
 
   useEffect(()=>{
-    fetchPostComments()
-
+    fetchPostComments();
   },[postId])
 
   const postComment=async(e)=>{
@@ -79,9 +77,11 @@ const PostDetails = () => {
       {comment:comment,author:user.username,postId:postId,userId:user._id},
       {withCredentials:true})
       
+      setComments((prevComments) => [...prevComments, res.data]);
+      setComment('')
       // fetchPostComments()
       // setComment("")
-      window.location.reload(true)
+      // window.location.reload(true)
       // console.log(res.response.data);
 
     }
